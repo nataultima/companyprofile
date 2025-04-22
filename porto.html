@@ -23,6 +23,7 @@
 <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+
 <!-- Main CSS File -->
 <link href="assets/css/main.css" rel="stylesheet">
 <header id="header" class="header sticky-top">
@@ -39,12 +40,12 @@
 
             <nav id="navmenu" class="navmenu">
                 <ul>
-                    <li><a href="index.html#hero" class="active">Home</a></li>
+                    <li><a href="index.html#hero" >Home</a></li>
                     <li><a href="index.html#about">About  us</a></li>
                     <li><a href="index.html#services">Services</a></li>
                     <li><a href="index.html#certified">Certified</a></li>
                     <li><a href="index.html#contact">Contact</a></li>
-                    <li><a href="porto.html">Portfolio</a></li>
+                    <li><a href="porto.html" class="active">Portfolio</a></li>
                     <li><a href="announcement.html">Announcement</a></li>
                 
                 </ul>
@@ -63,229 +64,332 @@
         <p><span>Check Our&nbsp;</span> <span class="description-title">Portfolio</span></p>
     </div>
     <!-- End Section Title -->
+
     <div class="container">
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+        <div class="isotope-layout" data-default-filter=".filter-app" data-layout="fitRows" data-sort="original-order">
+            <!-- Portfolio Filters -->
             <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-                <li data-filter="*" class="filter-active">All</li>
-                <li data-filter=".filter-app">Experience</li>
+                <li data-filter="*">All</li>
+                <li data-filter=".filter-app" class="filter-active">Experience</li>                
                 <li data-filter=".filter-product">Product</li>
-                <!-- <li data-filter=".filter-list">List Product</li> -->
+                <li data-filter=".filter-tools">Tools</li>
             </ul>
             <!-- End Portfolio Filters -->
+            <!-- Portfolio Items -->
             <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                    <img src="assets/img/product/produk9.jpg" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>Product</h4>
-                        <p>UGM</p>
-                        <a href="assets/img/product/produk9.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <!-- Experience Item 1 -->
+                <!-- Portfolio Item -->
+<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 portfolio-item isotope-item filter-app">
+    <div class="ratio ratio-4x3">
+        <img src="assets/img/porto/pengalaman5.png" class="img-fluid object-fit-cover rounded shadow-sm" alt="Experience">
+    </div>
+    <div class="portfolio-info mt-2">
+        <h4>Experience</h4>
+        <p>Experience List</p>
+        <a href="assets/img/porto/pengalaman5.png" title="Rusun Polri-IKN" data-gallery="portfolio-gallery-app" class="glightbox preview-link">
+            <i class="bi bi-zoom-in"></i>
+        </a>
+    </div>
+</div>
+
+                <!-- Experience Item 2 -->
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 portfolio-item isotope-item filter-app">
+                    <div class="ratio ratio-4x3">
+                        <img src="assets/img/porto/pengalaman1.png" class="img-fluid object-fit-cover rounded shadow-sm" alt="Experience">
+                    </div>
+                    <div class="portfolio-info mt-2">
+                        <h4>Experience</h4>
+                        <p>Experience List</p>
+                        <a href="assets/img/porto/pengalaman1.png" title="Rusun Polri-IKN" data-gallery="portfolio-gallery-app" class="glightbox preview-link">
+                            <i class="bi bi-zoom-in"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                    <img src="assets/img/porto/pengalaman5.png" class="img-fluid" alt="">
+                <!-- Experience Item 3 -->
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 portfolio-item isotope-item filter-app">
+                    <div class="ratio ratio-4x3">
+                    <img src="assets/img/porto/pengalaman2.png" class="img-fluid" alt="Experience">
+                </div>
                     <div class="portfolio-info">
                         <h4>Experience</h4>
                         <p>Experience List</p>
-                        <a href="assets/img/porto/pengalaman5.png" title="Rusun Polri-IKN" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                        <a href="assets/img/porto/pengalaman2.png" title="Rusun Polri-IKN" data-gallery="portfolio-gallery-app" class="glightbox preview-link">
+                            <i class="bi bi-zoom-in"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                    <img src="assets/img/porto/pengalaman1.png" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>Experience</h4>
-                        <p>Experience List</p>
-                        <a href="assets/img/porto/pengalaman1.png" title="Rusun Polri-IKN" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                    </div>
+                <!-- Product Item 1 -->
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 portfolio-item isotope-item filter-product">
+                    <div class="ratio ratio-4x3">
+                    <img src="assets/img/product/Smart panel lvmdp 5000A.jpeg" class="img-fluid" alt="Smart Panel Lvmdp 5000 Ampere">
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                    <img src="assets/img/porto/pengalaman2.png" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>Experience</h4>
-                        <p>Experience List</p>
-                        <a href="assets/img/porto/pengalaman2.png" title="Rusun Polri-IKN" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                    <img src="assets/img/product/PP-2 (2).jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4>Product</h4>
-                        <p></p>
-                        <a href="assets/img/product/PP-2 (2).jpg" title="" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                        <p>Smart Panel Lvmdp 5000 Ampere</p>
+                        <a href="assets/img/product/Smart panel lvmdp 5000A.jpeg" title="Smart Panel Lvmdp 5000 Ampere" data-gallery="portfolio-gallery-product" class="glightbox preview-link">
+                            <i class="bi bi-zoom-in"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                    <img src="assets/img/product/PP-2 (1).jpg" class="img-fluid" alt="">
-                    <div class="portfolio-info"> 
-                        <h4>Product</h4>
-                        <p></p>
-                        <a href="assets/img/product/PP-2 (1).jpg" title="" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                    </div>
+                <!-- Product Item 2 -->
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 portfolio-item isotope-item filter-product">
+                    <div class="ratio ratio-4x3">
+                    <img src="assets/img/product/Smart panel lvmdp 5000A-1.jpeg" class="img-fluid" alt="Smart Panel Lvmdp 5000 Ampere">
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                    <img src="assets/img/product/sementuban1 (6).jpeg" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4>Product</h4>
-                        <p>Semen Tuban</p>
-                        <a href="assets/img/product/sementuban1 (6).jpeg" title="Project-Semen Tuban" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                        <p>Smart Panel Lvmdp 5000 Ampere</p>
+                        <a href="assets/img/product/Smart panel lvmdp 5000A-1.jpeg" title="Smart Panel Lvmdp 5000 Ampere" data-gallery="portfolio-gallery-product" class="glightbox preview-link">
+                            <i class="bi bi-zoom-in"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                    <img src="assets/img/product/sementuban1 (1).jpeg" class="img-fluid" alt="">
+                <!-- Product Item 3 -->
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 portfolio-item isotope-item filter-product">
+                    <div class="ratio ratio-4x3">
+                    <img src="assets/img/product/Panel MV 20kV.jpeg" class="img-fluid" alt="Panel MV 20kV1">
+                </div>
                     <div class="portfolio-info">
                         <h4>Product</h4>
-                        <p>Semen Tuban</p>
-                        <a href="assets/img/product/sementuban1 (1).jpeg" title="Project-Semen Tuban" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                        <p>Panel MV 20kV</p>
+                        <a href="assets/img/product/Panel MV 20kV.jpeg" title="Panel MV 20kV" data-gallery="portfolio-gallery-product" class="glightbox preview-link">
+                            <i class="bi bi-zoom-in"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                    <img src="assets/img/product/sementuban1 (2).jpeg" class="img-fluid" alt="">
+                <!-- Product Item 4 -->
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 portfolio-item isotope-item filter-product">
+                    <div class="ratio ratio-4x3">
+                    <img src="assets/img/product/Panel lvmdp 250 Ampere Type Free Standing.jpeg" class="img-fluid" alt="Panel lvmdp 250 Ampere Type Free Standing">
+                </div>
                     <div class="portfolio-info">
                         <h4>Product</h4>
-                        <p>Semen Tuban</p>
-                        <a href="assets/img/product/sementuban1 (2).jpeg" title="Project-Semen Tuban" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                        <p>Panel lvmdp 250 Ampere Type Free Standing</p>
+                        <a href="assets/img/product/Panel lvmdp 250 Ampere Type Free Standing.jpeg" title="Panel lvmdp 250 Ampere Type Free Standing" data-gallery="portfolio-gallery-product" class="glightbox preview-link">
+                            <i class="bi bi-zoom-in"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                    <img src="assets/img/product/sementuban1 (3).jpeg" class="img-fluid" alt="">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 portfolio-item isotope-item filter-product">
+                    <div class="ratio ratio-4x3">
+                    <img src="assets/img/product/Panel Prisma Type Test Schneider.jpeg" class="img-fluid" alt="Panel Prisma Type Test Schneider">
+                </div>
                     <div class="portfolio-info">
                         <h4>Product</h4>
-                        <p>Semen Tuban</p>
-                        <a href="assets/img/product/sementuban1 (3).jpeg" title="Project-Semen Tuban" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                        <p>Panel Prisma Type Test Schneider</p>
+                        <a href="assets/img/product/Panel Prisma Type Test Schneider.jpeg" title="Panel Prisma Type Test Schneider" data-gallery="portfolio-gallery-product" class="glightbox preview-link">
+                            <i class="bi bi-zoom-in"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                    <img src="assets/img/product/sementuban1 (4).jpeg" class="img-fluid" alt="">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 portfolio-item isotope-item filter-product">
+                    <div class="ratio ratio-4x3">
+                    <img src="assets/img/product/Panel (Aktif Harmonic Filter) AHF600 Ampere Type Free Standing.jpeg" class="img-fluid" alt="Panel (Aktif Harmonic Filter) AHF600 Ampere Type Free Standing">
+                </div>
                     <div class="portfolio-info">
                         <h4>Product</h4>
-                        <p>Semen Tuban</p>
-                        <a href="assets/img/product/sementuban1 (4).jpeg" title="Project-Semen Tuban" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                        <p>Panel (Aktif Harmonic Filter) AHF600 Ampere Type Free Standing</p>
+                        <a href="assets/img/product/Panel (Aktif Harmonic Filter) AHF600 Ampere Type Free Standing.jpeg" title="Panel (Aktif Harmonic Filter) AHF600 Ampere Type Free Standing" data-gallery="portfolio-gallery-product" class="glightbox preview-link">
+                            <i class="bi bi-zoom-in"></i>
+                        </a>
                     </div>
+                </div> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 portfolio-item isotope-item filter-product">
+                    <div class="ratio ratio-4x3">
+                    <img src="assets/img/product/Panel Sincrone.jpeg" class="img-fluid" alt="Panel Sincrone">
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                    <img src="assets/img/product/jayapura (1).jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4>Product</h4>
-                        <p>Project-Jayapura: PP-OK. 1.1 (1P 10KVA)</p>
-                        <a href="assets/img/product/jayapura (1).jpg" title="Project-Jayapura: PP-OK. 1.1 (1P 10KVA)" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                        <p>Panel Sincrone</p>
+                        <a href="assets/img/product/Panel Sincrone.jpeg" title="Panel Sincrone" data-gallery="portfolio-gallery-product" class="glightbox preview-link">
+                            <i class="bi bi-zoom-in"></i>
+                        </a>
                     </div>
+                </div> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 portfolio-item isotope-item filter-product">
+                    <div class="ratio ratio-4x3">
+                    <img src="assets/img/product/Panel SDP Temporary Type Free standing.png" class="img-fluid" alt="Panel SDP Temporary Type Free standing">
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                    <img src="assets/img/product/jayapura (2).jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4>Product</h4>
-                        <p>Project-Jayapura: PP-OK. 1.1 (1P 10KVA)</p>
-                        <a href="assets/img/product/jayapura (2).jpg" title="Project-Jayapura: PP-OK. 1.1 (1P 10KVA)" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                        <p>Panel SDP Temporary Type Free standing</p>
+                        <a href="assets/img/product/Panel SDP Temporary Type Free standing.jpeg" title="Panel SDP Temporary Type Free standing" data-gallery="portfolio-gallery-product" class="glightbox preview-link">
+                            <i class="bi bi-zoom-in"></i>
+                        </a>
                     </div>
+                </div> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 portfolio-item isotope-item filter-product">
+                    <div class="ratio ratio-4x3">
+                    <img src="assets/img/product/Panel PP Lab A type Wall Mounting.png" class="img-fluid" alt="Panel PP type Wall mounting">
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                    <img src="assets/img/product/jayapura (3).jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4>Product</h4>
-                        <p>Project-Jayapura: PP-OK. 1.1 (1P 10KVA)</p>
-                        <a href="assets/img/product/jayapura (3).jpg" title="Project-Jayapura: PP-OK. 1.1 (1P 10KVA)" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                        <p>Panel PP type Wall Mounting</p>
+                        <a href="assets/img/product/Panel PP Lab A type Wall Mounting.png" title="Panel PP type Wall mounting" data-gallery="portfolio-gallery-product" class="glightbox preview-link">
+                            <i class="bi bi-zoom-in"></i>
+                        </a>
                     </div>
+                </div> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 portfolio-item isotope-item filter-product">
+                    <div class="ratio ratio-4x3">
+                    <img src="assets/img/product/Panel Lab A type Wall mounting.png" class="img-fluid" alt="Panel PP type Wall mounting">
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                    <img src="assets/img/product/lvmdp (1).jpeg" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4>Product</h4>
-                        <p>Panel LDVMP</p>
-                        <a href="assets/img/product/lvmdp (1).jpeg" title="Panel LDVMP" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                        <p>Panel PP type Wall mounting</p>
+                        <a href="assets/img/product/Panel Lab A type Wall mounting.png" title="Panel PP type Wall mounting" data-gallery="portfolio-gallery-product" class="glightbox preview-link">
+                            <i class="bi bi-zoom-in"></i>
+                        </a>
                     </div>
+                </div> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 portfolio-item isotope-item filter-product">
+                    <div class="ratio ratio-4x3">
+                    <img src="assets/img/product/Panel (operation teatre) OT 10 kVa-freestanding.png" class="img-fluid" alt="Panel PP type Wall mounting">
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                    <img src="assets/img/product/lvmdp (2).jpeg" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4>Product</h4>
-                        <p>Panel LDVMP</p>
-                        <a href="assets/img/product/lvmdp (2).jpeg" title="Panel LDVMP" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                        <p>Panel (operation teatre) OT 10 kVa-freestanding</p>
+                        <a href="assets/img/product/Panel (operation teatre) OT 10 kVa-freestanding.png" title="Panel PP type Wall mounting" data-gallery="portfolio-gallery-product" class="glightbox preview-link">
+                            <i class="bi bi-zoom-in"></i>
+                        </a>
                     </div>
+                </div> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 portfolio-item isotope-item filter-tools">
+                    <div class="ratio ratio-4x3">
+                    <img src="assets/img/p/Krass Press Brake MB8-110T 3200.png" class="img-fluid" alt="Krass Press Brake MB8-110T 3200">
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                    <img src="assets/img/product/lvmdp (3).jpeg" class="img-fluid" alt="">
                     <div class="portfolio-info">
-                        <h4>Product</h4>
-                        <p>Panel LDVMP</p>
-                        <a href="assets/img/product/lvmdp (3).jpeg" title="Panel LDVMP" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                        <h4>Tools</h4>
+                        <p>Krass Press Brake MB8-110T 3200</p>
+                        <a href="assets/img/p/Krass Press Brake MB8-110T 3200.png" title="Krass Press Brake MB8-110T 3200" data-gallery="portfolio-gallery-product" class="glightbox preview-link">
+                            <i class="bi bi-zoom-in"></i>
+                        </a>
                     </div>
+                </div> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 portfolio-item isotope-item filter-tools">
+                    <div class="ratio ratio-4x3">
+                    <img src="assets/img/p/Busbar Namsung-NB707.png" class="img-fluid" alt="Busbar Namsung-NB707">
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                    <img src="assets/img/product/lvmdp (4).jpeg" class="img-fluid" alt="">
                     <div class="portfolio-info">
-                        <h4>Product</h4>
-                        <p>Panel LDVMP</p>
-                        <a href="assets/img/product/lvmdp (4).jpeg" title="Panel LDVMP" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                        <h4>Tools</h4>
+                        <p>Busbar Namsung-NB707</p>
+                        <a href="assets/img/p/Busbar Namsung-NB707.png" title="Busbar Namsung-NB707" data-gallery="portfolio-gallery-product" class="glightbox preview-link">
+                            <i class="bi bi-zoom-in"></i>
+                        </a>
                     </div>
+                </div> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 portfolio-item isotope-item filter-tools">
+                    <div class="ratio ratio-4x3">
+                    <img src="assets/img/p/Busbar Namsung.png" class="img-fluid" alt="Busbar Namsung 607">
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                    <img src="assets/img/product/lvmdp (5).jpeg" class="img-fluid" alt="">
                     <div class="portfolio-info">
-                        <h4>Product</h4>
-                        <p>Panel LDVMP</p>
-                        <a href="assets/img/product/lvmdp (5).jpeg" title="Panel LDVMP" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                        <h4>Tools</h4>
+                        <p>Busbar Namsung 607</p>
+                        <a href="assets/img/p/Busbar Namsung.png" title="Busbar Namsung 607" data-gallery="portfolio-gallery-product" class="glightbox preview-link">
+                            <i class="bi bi-zoom-in"></i>
+                        </a>
                     </div>
+                </div> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 portfolio-item isotope-item filter-tools">
+                    <div class="ratio ratio-4x3">
+                    <img src="assets/img/p/CWL-3000.png" class="img-fluid" alt="CWL-3000">
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                    <img src="assets/img/product/lvmdp (6).jpeg" class="img-fluid" alt="">
                     <div class="portfolio-info">
-                        <h4>Product</h4>
-                        <p>Panel LDVMP</p>
-                        <a href="assets/img/product/lvmdp (6).jpeg" title="Panel LDVMP" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                        <h4>Tools</h4>
+                        <p>CWL-3000</p>
+                        <a href="assets/img/p/CWL-3000.png" title="CWL-3000" data-gallery="portfolio-gallery-product" class="glightbox preview-link">
+                            <i class="bi bi-zoom-in"></i>
+                        </a>
                     </div>
+                </div> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 portfolio-item isotope-item filter-tools">
+                    <div class="ratio ratio-4x3">
+                    <img src="assets/img/p/Fiber Laser mArking FXM 20.png" class="img-fluid" alt="Fiber Laser Marking FXM 20">
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                    <img src="assets/img/product/lvmdp (7).jpeg" class="img-fluid" alt="">
                     <div class="portfolio-info">
-                        <h4>Product</h4>
-                        <p>Panel LDVMP</p>
-                        <a href="assets/img/product/lvmdp (7).jpeg" title="Panel LDVMP" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                        <h4>Tools</h4>
+                        <p>Fiber Laser Marking FXM 20</p>
+                        <a href="assets/img/p/Fiber Laser mArking FXM 20.png" title="Fiber Laser Marking FXM 20" data-gallery="portfolio-gallery-product" class="glightbox preview-link">
+                            <i class="bi bi-zoom-in"></i>
+                        </a>
                     </div>
+                </div> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 portfolio-item isotope-item filter-tools">
+                    <div class="ratio ratio-4x3">
+                    <img src="assets/img/p/Laser Engraver.png" class="img-fluid" alt="Laser Engraver">
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                    <img src="assets/img/product/lvmdp (8).jpeg" class="img-fluid" alt="">
                     <div class="portfolio-info">
-                        <h4>Product</h4>
-                        <p>Panel LDVMP</p>
-                        <a href="assets/img/product/lvmdp (8).jpeg" title="Panel LDVMP" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                        <h4>Tools</h4>
+                        <p>Laser Engraver</p>
+                        <a href="assets/img/p/Laser Engraver.png" title="Laser Engraver" data-gallery="portfolio-gallery-product" class="glightbox preview-link">
+                            <i class="bi bi-zoom-in"></i>
+                        </a>
                     </div>
+                </div> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 portfolio-item isotope-item filter-tools">
+                    <div class="ratio ratio-4x3">
+                    <img src="assets/img/p/Megger Ingvar.png" class="img-fluid" alt="Megger Ingvar">
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                    <img src="assets/img/product/kapasitor (1).jpeg" class="img-fluid" alt="">
                     <div class="portfolio-info">
-                        <h4>Product</h4>
-                        <p>Kapasitor</p>
-                        <a href="assets/img/product/kapasitor (1).jpeg" title="Kapasitor" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                        <h4>Tools</h4>
+                        <p>Megger Ingvar</p>
+                        <a href="assets/img/p/Megger Ingvar.png" title="Megger Ingvar" data-gallery="portfolio-gallery-product" class="glightbox preview-link">
+                            <i class="bi bi-zoom-in"></i>
+                        </a>
                     </div>
+                </div> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 portfolio-item isotope-item filter-tools">
+                    <div class="ratio ratio-4x3">
+                    <img src="assets/img/p/Megger Kyoritsu.png" class="img-fluid" alt="Megger Kyoritsu">
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                    <img src="assets/img/product/kapasitor (2).jpeg" class="img-fluid" alt="">
                     <div class="portfolio-info">
-                        <h4>Product</h4>
-                        <p>Kapasitor</p>
-                        <a href="assets/img/product/kapasitor (2).jpeg" title="Kapasitor" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                        <h4>Tools</h4>
+                        <p>Megger Kyoritsu</p>
+                        <a href="assets/img/p/Megger Kyoritsu.png" title="Megger Kyoritsu" data-gallery="portfolio-gallery-product" class="glightbox preview-link">
+                            <i class="bi bi-zoom-in"></i>
+                        </a>
                     </div>
+                </div> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 portfolio-item isotope-item filter-tools">
+                    <div class="ratio ratio-4x3">
+                    <img src="assets/img/p/RAS-3015-Smart.png" class="img-fluid" alt="RAS-3015-Smart">
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                    <img src="assets/img/product/ahf50a (1).jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
-                        <h4>Product</h4>
-                        <p>AHF50A(SDP-LP.B)</p>
-                        <a href="assets/img/product/ahf50a (1).jpg" title="AHF50A(SDP-LP.B)" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                        <h4>Tools</h4>
+                        <p>RAS-3015-Smart</p>
+                        <a href="assets/img/p/RAS-3015-Smart.png" title="RAS-3015-Smart" data-gallery="portfolio-gallery-product" class="glightbox preview-link">
+                            <i class="bi bi-zoom-in"></i>
+                        </a>
                     </div>
+                </div> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 portfolio-item isotope-item filter-tools">
+                    <div class="ratio ratio-4x3">
+                    <img src="assets/img/p/RMFL-1500.png" class="img-fluid" alt="RMFL-1500">
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                    <img src="assets/img/product/ahf50a (2).jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
-                        <h4>Product</h4>
-                        <p>AHF50A(SDP-LP.B)</p>
-                        <a href="assets/img/product/ahf50a (2).jpg" title="AHF50A(SDP-LP.B)" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                        <h4>Tools</h4>
+                        <p>RMFL-1500</p>
+                        <a href="assets/img/p/RMFL-1500.png" title="RMFL-1500" data-gallery="portfolio-gallery-product" class="glightbox preview-link">
+                            <i class="bi bi-zoom-in"></i>
+                        </a>
                     </div>
+                </div> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 portfolio-item isotope-item filter-tools">
+                    <div class="ratio ratio-4x3">
+                    <img src="assets/img/p/Tekma Air Compressor.png" class="img-fluid" alt="Tekma Air Compressor">
                 </div>
-               <!-- End Portfolio Item -->
+                    <div class="portfolio-info">
+                        <h4>Tools</h4>
+                        <p>Tekma Air Compressor</p>
+                        <a href="assets/img/p/Tekma Air Compressor.png" title="Tekma Air Compressor" data-gallery="portfolio-gallery-product" class="glightbox preview-link">
+                            <i class="bi bi-zoom-in"></i>
+                        </a>
+                    </div>
+                </div> 
             </div>
-
+            <!-- End Portfolio Items -->
         </div>
-
+    </div>
 </section>
 
 <!-- Contact Section -->
@@ -419,6 +523,14 @@
 
 <!-- Main JS File -->
 <script src="assets/js/main.js"></script>
+<style>
+    .portfolio-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+</style>
 </body>
 
 </html>
